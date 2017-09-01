@@ -1,0 +1,1 @@
+javascript:{var x = document.getElementsByClassName("quantumWizTogglePaperradioEl freebirdThemedRadio freebirdThemedRadioDarkerDisabled");  var count = 0; for(var i = 0; i < x.length; i++){ if(x[i].getAttribute('data-value') == "Neutral"){ count++; x[i].click(); } } alert(count);   }
