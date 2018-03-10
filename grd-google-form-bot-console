@@ -1,2 +1,2 @@
 // paste it in the console directly it will work
-var x = document.getElementsByClassName("quantumWizTogglePaperradioEl freebirdThemedRadio freebirdThemedRadioDarkerDisabled");  var count = 0; for(var i = 0; i < x.length; i++){ if(x[i].getAttribute('data-value') == "Neutral"){ count++; x[i].click(); } } alert(count);
+var x = document.getElementsByClassName("quantumWizTogglePaperradioEl freebirdThemedRadio freebirdThemedRadioDarkerDisabled");  var count = 0; for(var i = 0; i < x.length; i++){ if(x[i].getAttribute('data-value') == "5"){ count++; x[i].click(); } } alert(count);
